@@ -1,4 +1,4 @@
-# Solidity Template
+# Solidity TypeChain Demo
 
 Uses
 
@@ -9,8 +9,7 @@ Uses
 - [Solhint](https://github.com/protofire/solhint): linter
 - [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
 
-This is a GitHub template, which means you can reuse it as many times as you want. You can do that by clicking the "Use this
-template" button at the top of the page.
+This is a demo hardhat project with Solidity, which means you can reuse it as many times as you want.
 
 ## Usage
 
@@ -19,7 +18,7 @@ template" button at the top of the page.
 Before running any command, make sure to install dependencies:
 
 ```sh
-$ yarn install
+$ npm install
 ```
 
 ### Compile
@@ -27,7 +26,7 @@ $ yarn install
 Compile the smart contracts with Hardhat:
 
 ```sh
-$ yarn compile
+$ npm run compile
 ```
 
 ### Test
@@ -35,7 +34,7 @@ $ yarn compile
 Run the Mocha tests:
 
 ```sh
-$ yarn test
+$ npm run test
 ```
 
 ### Deploy contract to netowrk (requires Mnemonic and infura API key)
@@ -57,4 +56,4 @@ npx hardhat verify --network <network> <DEPLOYED_CONTRACT_ADDRESS> "Constructor 
 
 ## Thanks
 
-If you like it than you soulda put a start ⭐ on it 
+If you like it, please put a star ⭐ on it 
